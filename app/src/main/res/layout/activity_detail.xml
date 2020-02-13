@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        android:layout_gravity="top|center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailActivity">
+<!--
+    <ImageView
+            android:id="@+id/pokemon_image"
+            android:layout_width="150sp"
+            android:layout_height="150sp"/>
+    
+    <TextView
+            android:id="@+id/pokemon_name"
+            android:text="NAME"
+            android:textSize="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/pokemon_detail"
+                android:text="test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </android.support.v4.widget.NestedScrollView>
+-->
+    <fragment
+        android:id="@+id/details_fragment"
+        android:name="com.littlecurl.pokedex.DetailsFragment"
+        tools:layout="@layout/fragment_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
